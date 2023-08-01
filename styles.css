@@ -1,0 +1,108 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 25;
+    padding: 50;
+}
+body {
+    background-color: black;
+    color: white; /* Definindo a cor do texto para branco para melhor contraste */
+}
+
+#logo{
+    position:absolute;
+    top: 10px; /* Distancia em relação ao topo */
+    right: 10px; /* Distancia em relação a direita */
+    width: 50px; /* Largura da imagem (ajuste conforme necessario) */
+    height: 65px; /* Altura da imagem (ajuste conforme necessario) */
+    z-index: 1; /*caso precise controlar a sobreposição com outros elementos */
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: 10px;
+}
+nav ul {
+    list-style:none;
+    padding: 20;
+    margin: 35;
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 40px;
+}
+nav li a:hover{
+    background-color: #da0505;
+}
+
+nav {
+    float: right;
+    margin-top: 30px;
+}
+
+main {
+    padding: 10px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+h1 {
+    margin-top: 60;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: 100px;
+    padding: 10px;
+}
+/* estilo.css */
+
+/* Defina o posicionamento absoluto para o elemento com ID "imagem-canto" */
+#imagem-canto {
+    position: absolute;
+    top: 300px; /* Ajuste o valor '10px' para a distância desejada a partir do topo */
+    right: 0px; /* Ajuste o valor '10px' para a distância desejada a partir da direita */
+}
+/*grade menu*/
+
+/* estilo.css */
+
+/* Estilo para a grade de conteúdos recentes */
+.conteudos-recentes {
+    display: grid;
+    
+   
+grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas com largura igual */
+    
+   
+gap: 10px; /* Define o espaçamento entre os itens */
+    
+   
+padding: 20px; /* Define um espaçamento interno para a grade */
+}
+
+/* Estilo para cada item de conteúdo recente */
+.item-conteudo {
+    
+   
+background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para os links dentro dos itens de conteúdo */
+.item-conteudo a {
+    text-decoration: none;
+    color: #333;
+}
